@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-image: url("../images/background.jpeg");
+}
+
+#container {
+    width: 960px;
+    box-sizing: border-box;
+    margin: 1.0% auto;
+    background-color: orangered;
+}
+
+#game {
+    position: relative;
+    top: 10%; /*may use 15*/
+
+}
+
+button {
+    display: block;
+    width: 40%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 36px;
+    cursor:url(https://media.giphy.com/media/xTiN0E03sgnvms9Uli/200w_d.gif),url(myBall.cur),auto;
+    background: transparent;
+    border: 0;
+}
+
+h1 {
+    padding-top: 2.5%;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    color: sandybrown;
+}
+
+#start-button {
+    margin-top: 10%;
+    border: 3px black;
+}
+
+button:hover {
+    background: darkslategrey;
+    border: 3px black;
+    cursor: hand;
+}
+
