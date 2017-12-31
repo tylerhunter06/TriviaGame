@@ -8,21 +8,21 @@ $(document).on('click','#end',function(){
 })
 
 var questions = [{
-    question: "What is your name",
-    answers: ["Tyler", "superman", "johnnyboy"],
-    correctAnswer: ["1"]
+    question: "Who was the first African American Major League Baseball player?",
+    answers: ["Satchel Paige", "Jackie Robinson", "Larry Doby", "Ernie Banks"],
+    correctAnswer: ["Jackie Robinson"]
 }, {
-    question: "What is your age",
-    answers: ["21", "22", "24", "25"],
-    correctAnswer: 3
+    question: "Where was the first 'sit-in' at a segregated lunch counter?",
+    answers: ["Charleston, SC", "Atlanta, GA", "Greensboro, NC", "Jackson, MS"],
+    correctAnswer: ["Greensboro, NC"]
 }, {
-    question: "What is your hometown",
-    answers: ["ATL", "CHicago", "BHAM"],
-    correctAnswer: [2]
+    question: "Who was the first African American Nobel Peace Prize winner?",
+    answers: ["Albert John Lutul", "Nelson Mandela", "Martin Luther King Jr.", "Ralph Bunche"],
+    correctAnswer: ["Ralph Bunche"]
 }, {
-    question: "What is your occupation",
-    answers: ["accountant", "janitor", "chef", "astronaut"],
-    correctAnswer: "chef"
+    question: "Who was the first African American to serve as a US Supreme Court Justice?",
+    answers: ["Clarence Thomas", "William Henry Hastie", "Thurgood Marshall", "Charles Hamilton Houston"],
+    correctAnswer: ["Thurgood Marshall"]
 }];
 
 var game = {
